@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cristinalopez.formulario.MainActivityC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_titulo_activity2"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textSize_titulo"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/textSize_texto"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/textViewNom3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fec_nacimiento"
+        android:textSize="@dimen/textSize_texto"
+        android:layout_below="@+id/textViewNom3"
+        android:id="@+id/textViewFec4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel"
+        android:textSize="@dimen/textSize_texto"
+        android:layout_below="@+id/textViewFec4"
+        android:id="@+id/textViewTel5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        android:textSize="@dimen/textSize_texto"
+        android:layout_below="@+id/textViewTel5"
+        android:id="@+id/textViewMail6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/des"
+        android:textSize="@dimen/textSize_texto"
+        android:layout_below="@+id/textViewMail6"
+        android:id="@+id/textViewDesc7"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_editar"
+        android:onClick="irEditar"
+        android:id="@+id/buttonEdit"
+        android:layout_below="@+id/textViewDesc7"/>
+
+</RelativeLayout>

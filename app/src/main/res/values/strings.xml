@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombre_contacto">Nombre Contacto</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="fec_nacimiento">Fecha Nacimiento: </string>
+    <string name="telefono">Teléfono</string>
+    <string name="tel">Tel. </string>
+    <string name="correo">Correo electrónico</string>
+    <string name="mail">Email: </string>
+    <string name="descripcion">Descripción</string>
+    <string name="des">Descripción: </string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_editar">Editar Datos</string>
+    <string name="tv_titulo_activity2">Confirmar Datos</string>
+    <string name="key_param_nombre">nombreContacto</string>
+    <string name="key_param_fecha">fecha</string>
+    <string name="key_param_tel">tel</string>
+    <string name="key_param_mail">mail</string>
+    <string name="key_param_descripcion">descripcion</string>
+</resources>
